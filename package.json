@@ -1,0 +1,40 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A CMS interface that uses Node.js, Inquirer and MySQL to build a command-line application to manage a company's employee database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "mysql db/empTracker.db < db/schema.sql",
+    "seed": "mysql db/empTracker.db < db/seeds.sql",
+    "db": "mysql db/empTracker.db",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TEkdahl92/SQL-Challenge-Employee-Tracker"
+  },
+  "keywords": [
+    "node.js",
+    "inquirer",
+    "mysql",
+    "express"
+  ],
+  "author": "Troy Ekdahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TEkdahl92/SQL-Challenge-Employee-Tracker"
+  },
+  "homepage": "https://github.com/TEkdahl92/SQL-Challenge-Employee-Tracker#README",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "chalk-table": "^1.0.2",
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.1.0",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
