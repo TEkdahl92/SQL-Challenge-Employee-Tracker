@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Walkthrough Video
-[Walkthrough Video]()
+[Walkthrough Video](https://drive.google.com/file/d/1g8ho2lCXcGfeYRo77vufmhN-9vqpL9Xy/view)
 
 ## Description
 This command-line application is created for a business owner who will be able to view and manage departments, roles and employees in the company so that they can organize and plan their business.
